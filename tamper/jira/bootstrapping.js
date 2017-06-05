@@ -1,4 +1,4 @@
-fetch("https://gist.githubusercontent.com/KristopherPaulsen/006db773efaf0f7bef293845d94eaf8c/raw/8665c2e96cfe8506d9716e53084d388174884dd3/new_gist_file_0")
+fetch("https://gist.githubusercontent.com/KristopherPaulsen/006db773efaf0f7bef293845d94eaf8c/raw/6b4f9f23724703c7d82b4872605df1be0cd34a01/new_gist_file_0")
 .then((response) => response.text())
 .then((text) => eval(text))
 .then(alert(test));
